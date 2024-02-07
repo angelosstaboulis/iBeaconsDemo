@@ -16,6 +16,7 @@
 		D6B185DF2B73A520006EC3AE /* iBeaconDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B185DE2B73A520006EC3AE /* iBeaconDemoTests.swift */; };
 		D6B185E92B73A520006EC3AE /* iBeaconDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B185E82B73A520006EC3AE /* iBeaconDemoUITests.swift */; };
 		D6B185EB2B73A520006EC3AE /* iBeaconDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B185EA2B73A520006EC3AE /* iBeaconDemoUITestsLaunchTests.swift */; };
+		D6B185FA2B73AB23006EC3AE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B185F92B73AB23006EC3AE /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D6B185E42B73A520006EC3AE /* iBeaconDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B185E82B73A520006EC3AE /* iBeaconDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconDemoUITests.swift; sourceTree = "<group>"; };
 		D6B185EA2B73A520006EC3AE /* iBeaconDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6B185F92B73AB23006EC3AE /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		D6B185C62B73A51D006EC3AE /* iBeaconDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D6B185F82B73AB10006EC3AE /* Helper */,
+				D6B185F72B73AB04006EC3AE /* View */,
 				D6B185C72B73A51D006EC3AE /* AppDelegate.swift */,
 				D6B185C92B73A51D006EC3AE /* SceneDelegate.swift */,
-				D6B185CB2B73A51D006EC3AE /* ViewController.swift */,
 				D6B185CD2B73A51E006EC3AE /* Main.storyboard */,
 				D6B185D02B73A520006EC3AE /* Assets.xcassets */,
 				D6B185D22B73A520006EC3AE /* LaunchScreen.storyboard */,
@@ -125,6 +128,22 @@
 				D6B185EA2B73A520006EC3AE /* iBeaconDemoUITestsLaunchTests.swift */,
 			);
 			path = iBeaconDemoUITests;
+			sourceTree = "<group>";
+		};
+		D6B185F72B73AB04006EC3AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6B185CB2B73A51D006EC3AE /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6B185F82B73AB10006EC3AE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D6B185F92B73AB23006EC3AE /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 				D6B185CC2B73A51D006EC3AE /* ViewController.swift in Sources */,
 				D6B185C82B73A51D006EC3AE /* AppDelegate.swift in Sources */,
 				D6B185CA2B73A51D006EC3AE /* SceneDelegate.swift in Sources */,
+				D6B185FA2B73AB23006EC3AE /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
