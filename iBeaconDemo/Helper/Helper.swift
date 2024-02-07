@@ -39,7 +39,6 @@ class Helper:NSObject,CBPeripheralManagerDelegate{
     func peripheralManagerDidUpdateState(_ peripheral: CBPeripheralManager) {
         if peripheral.state == .poweredOn {
             peripheralManager.startAdvertising(beaconPeripheralData as? [String: Any])
-            debugPrint(beaconPeripheralData as! [String:Any])
         } else if peripheral.state == .poweredOff {
             peripheralManager.stopAdvertising()
         }
